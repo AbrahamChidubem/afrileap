@@ -1,0 +1,13 @@
+{
+  "testEnvironment": "node",
+  "testPathPattern": "tests/",
+  "collectCoverageFrom": ["src/**/*.js"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 70,
+      "functions": 80,
+      "lines": 80
+    }
+  },
+  "verbose": true
+}
